@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.card {
+    box-shadow: 2px 2px 2px #B5B5B5;
+    border: 1px solid #DCDCDC;
+    margin: auto;
+    margin-top: 5px;
+    padding: 10px;
+    height: auto;
+    width: 300px;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    margin-top: 5%;
+}
+
+.title {
+    color: green;
+}
+
+.title-section{
+    width: 100%;
+}
+
+.enviar, .eliminar {
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    width: 100px;
+    color: white;
+    margin: 15px;
+}
+
+.enviar{
+    background: green;
+}
+
+.eliminar{
+    background: red;
+}
+
+.container {
+    margin: 50px 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+    justify-content: space-evenly;
+}
