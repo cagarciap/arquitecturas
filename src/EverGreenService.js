@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const url = "http://localhost:3000/crops";
-const urlParcelas = "http://localhost:3000/plots"; 
+const url = "https://fathomless-oasis-66080.herokuapp.com/crops";
+const urlParcelas = "https://fathomless-oasis-66080.herokuapp.com/plots"; 
 
 /* eslint-disable no-async-promise-executor */
 
